@@ -1,0 +1,29 @@
+.ilustracion-texto {
+    padding-top: 10vh;
+    height: min-content;
+    position: sticky;
+    top: 0;
+}
+
+@media (max-width: 900px) {
+    .ilustracion-texto {
+        position: unset;
+    }
+}
+
+@media (max-width: 700px) {
+    .ilustracion-texto {
+        margin-top: var(--spacer-l);
+    }
+
+    .ilustracion-texto .text-headline {
+        margin-bottom: var(--spacer-s);
+    }
+}
+
+@media (max-width: 500px) {
+    .ilustracion-texto {
+        margin-top: 0;
+        order: -1;
+    }
+}

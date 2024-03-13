@@ -1,0 +1,27 @@
+Atributo: Una variable que es parte de una clase
+clase: Es una plantilla que puede usarse para definir un objeto,
+       define los atributos y metodos que formaran dicho objeto.
+clase_hija: Una clase nueva creada cuando una clase padre es
+            extendida
+constructor: metodo opcional, con una nombre especial (__init__)
+             se usa para determinar los valores iniciales de un objeto
+herencia: cuando creamos una nueva clase extendiendo una clase existente
+          la clase hija tiene todos los atributos y metodos del padre.
+metodo: Una funcion contenida dentro de una clase y los objetos 
+        construidos desde esa clase.
+objeto: Una instancia construida de una clase, contiene todos los atributos
+        y metdoos definidos por la clase.
+
+
+
+Mantenibilidad: código bien organizado, estructuras claras y seguir buenas practicas
+Reusabilidad: módulos , clases funciones, independientes para ahorrar tiempo en desarrollo de mejoras
+Legibilidad: fácil y claro de entender para cualquier desarrollador, comentar si es necesario.
+Extensible: facilita la adición de nuevas funciones a los desarrolladores
+
+
+- SOLID 
+        Single responsability principle: Una clase tiene que tener una sola razon para cambiar,
+        lo mejor es evitar la sobre carga de funciones y permitir cambios a futuro.
+
+        

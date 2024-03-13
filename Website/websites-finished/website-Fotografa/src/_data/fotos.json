@@ -1,0 +1,20 @@
+[
+  {
+    "imagen": "foto-2.jpg",
+    "posicion": "izquierda"
+  },
+  {
+    "imagen": "foto-3.jpg",
+    "posicion": "completa"
+
+  },
+  {
+    "imagen": "foto-4.jpg",
+    "posicion": "derecha"
+
+  },
+  {
+    "imagen": "foto-5.jpg",
+    "posicion": "completa"
+  }
+]

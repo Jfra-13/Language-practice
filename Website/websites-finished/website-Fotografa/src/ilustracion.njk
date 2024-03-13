@@ -1,0 +1,26 @@
+---
+layout: layouts/base.njk
+title: Ilustración
+eleventyNavigation:
+  key: ilustracion
+  title: Ilustración
+  order: 2
+---
+
+<div class="col-6 col-md-5 col-sm-4 col-xs-6">
+  
+
+  {% for elemento in ilus %}
+    {% include 'components/project.njk' %}
+  {% endfor %}
+
+</div>
+
+<div class="col-6 col-md-5 col-sm-4 col-xs-6 ilustracion-texto">
+
+  <h1 class="text-headline font-2">Ilustración</h1>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </p>
+
+</div>
